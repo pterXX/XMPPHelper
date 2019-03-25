@@ -1,20 +1,17 @@
-# Uncomment the next line to define a global platform for your project
+# Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
 
+source 'https://github.com/pterXX/PrivatePod.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
 target 'XMPPHelper' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for XMPPHelper
-
-  target 'XMPPHelperTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'XMPPHelperUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+ pod 'XMPPFramework'             #xmmp协议框架
+ pod 'CocoaLumberjack'           #日志框架
+ pod 'FMDB'
+ pod 'MJExtension'
+ 
+ pod 'PrivateKit'   #私有库, 常用分类
+ pod 'IMShortcut'   #私有库, 常用便捷方法
 end

@@ -1,1 +1,1 @@
-# XMPPHelper
+pod "XMPPHelper"

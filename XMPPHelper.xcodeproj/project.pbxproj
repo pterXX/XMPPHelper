@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B2309FCB5BE97CEDAEC515 /* libPods-XMPPHelperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BAEE6F35C6F63D55814142 /* libPods-XMPPHelperTests.a */; };
-		7DDEBDB9857DF46D798171A2 /* libPods-XMPPHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB7CCBAF5CB56034E96671F /* libPods-XMPPHelper.a */; };
+		4983C0F757C2B24C74A57893 /* Pods_XMPPHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10E27EAF0F2251B288C1 /* Pods_XMPPHelper.framework */; };
 		84E97B5E2248D17200DF8842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B5D2248D17200DF8842 /* AppDelegate.m */; };
 		84E97B612248D17200DF8842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B602248D17200DF8842 /* ViewController.m */; };
 		84E97B642248D17200DF8842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E97B622248D17200DF8842 /* Main.storyboard */; };
@@ -17,7 +16,29 @@
 		84E97B6C2248D17400DF8842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B6B2248D17400DF8842 /* main.m */; };
 		84E97B762248D17400DF8842 /* XMPPHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B752248D17400DF8842 /* XMPPHelperTests.m */; };
 		84E97B812248D17400DF8842 /* XMPPHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B802248D17400DF8842 /* XMPPHelperUITests.m */; };
-		D350A9339BAF143D96E6123C /* libPods-XMPPHelperUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4602E69725D38533A19770D /* libPods-XMPPHelperUITests.a */; };
+		84E97B912248D32300DF8842 /* IMXMPPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B902248D32200DF8842 /* IMXMPPHelper.m */; };
+		84E97BCC2248D32A00DF8842 /* IMDBBaseStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B962248D32A00DF8842 /* IMDBBaseStore.m */; };
+		84E97BCD2248D32A00DF8842 /* IMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B972248D32A00DF8842 /* IMDBManager.m */; };
+		84E97BCE2248D32A00DF8842 /* IMConversationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B9B2248D32A00DF8842 /* IMConversationModel.m */; };
+		84E97BCF2248D32A00DF8842 /* IMChatMessageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B9D2248D32A00DF8842 /* IMChatMessageHelper.m */; };
+		84E97BD02248D32A00DF8842 /* IMMailAccountInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BA02248D32A00DF8842 /* IMMailAccountInfoModel.m */; };
+		84E97BD12248D32A00DF8842 /* IMMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BA22248D32A00DF8842 /* IMMessageModel.m */; };
+		84E97BD22248D32A00DF8842 /* IMPhotoPreviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BA32248D32A00DF8842 /* IMPhotoPreviewModel.m */; };
+		84E97BD32248D32A00DF8842 /* IMConversationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BA52248D32A00DF8842 /* IMConversationHelper.m */; };
+		84E97BD42248D32A00DF8842 /* IMConversationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BA82248D32A00DF8842 /* IMConversationStore.m */; };
+		84E97BD52248D32A00DF8842 /* IMDBConversationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BAA2248D32A00DF8842 /* IMDBConversationStore.m */; };
+		84E97BD62248D32A00DF8842 /* IMUserHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BAC2248D32A00DF8842 /* IMUserHelper.m */; };
+		84E97BD72248D32A00DF8842 /* IMGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BAE2248D32A00DF8842 /* IMGroup.m */; };
+		84E97BD82248D32A00DF8842 /* IMGroup+CreateAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BAF2248D32A00DF8842 /* IMGroup+CreateAvatar.m */; };
+		84E97BD92248D32A00DF8842 /* IMDBGroupStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BB52248D32A00DF8842 /* IMDBGroupStore.m */; };
+		84E97BDA2248D32A00DF8842 /* IMDBFriendStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BB62248D32A00DF8842 /* IMDBFriendStore.m */; };
+		84E97BDB2248D32A00DF8842 /* IMUserChatSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BBD2248D32A00DF8842 /* IMUserChatSetting.m */; };
+		84E97BDC2248D32A00DF8842 /* IMUserDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BBE2248D32A00DF8842 /* IMUserDetail.m */; };
+		84E97BDD2248D32A00DF8842 /* IMUserGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BC12248D32A00DF8842 /* IMUserGroup.m */; };
+		84E97BDE2248D32A00DF8842 /* IMUserSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BC42248D32A00DF8842 /* IMUserSetting.m */; };
+		84E97BDF2248D32A00DF8842 /* IMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BC52248D32A00DF8842 /* IMUser.m */; };
+		84E97BE02248D32A00DF8842 /* IMAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BC72248D32A00DF8842 /* IMAccountManager.m */; };
+		84E97BE12248D32A00DF8842 /* IMDBUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97BCB2248D32A00DF8842 /* IMDBUserStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +60,6 @@
 
 /* Begin PBXFileReference section */
 		13BAEE6F35C6F63D55814142 /* libPods-XMPPHelperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMPPHelperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BB7CCBAF5CB56034E96671F /* libPods-XMPPHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMPPHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B8ABA95D54ED907CBFEF610 /* Pods-XMPPHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPHelperTests.release.xcconfig"; path = "Target Support Files/Pods-XMPPHelperTests/Pods-XMPPHelperTests.release.xcconfig"; sourceTree = "<group>"; };
 		84E97B592248D17200DF8842 /* XMPPHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPPHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E97B5C2248D17200DF8842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E97B5D2248D17200DF8842 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,12 +76,60 @@
 		84E97B7C2248D17400DF8842 /* XMPPHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E97B802248D17400DF8842 /* XMPPHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPHelperUITests.m; sourceTree = "<group>"; };
 		84E97B822248D17400DF8842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9953C94A71BA2C3A5A1D4558 /* Pods-XMPPHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPHelperUITests.debug.xcconfig"; path = "Target Support Files/Pods-XMPPHelperUITests/Pods-XMPPHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84E97B8F2248D32200DF8842 /* IMXMPPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXMPPHelper.h; sourceTree = "<group>"; };
+		84E97B902248D32200DF8842 /* IMXMPPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXMPPHelper.m; sourceTree = "<group>"; };
+		84E97B942248D32A00DF8842 /* IMDBBaseStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBBaseStore.h; sourceTree = "<group>"; };
+		84E97B952248D32A00DF8842 /* IMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBManager.h; sourceTree = "<group>"; };
+		84E97B962248D32A00DF8842 /* IMDBBaseStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDBBaseStore.m; sourceTree = "<group>"; };
+		84E97B972248D32A00DF8842 /* IMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDBManager.m; sourceTree = "<group>"; };
+		84E97B992248D32A00DF8842 /* IMConversationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMConversationHelper.h; sourceTree = "<group>"; };
+		84E97B9B2248D32A00DF8842 /* IMConversationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMConversationModel.m; sourceTree = "<group>"; };
+		84E97B9C2248D32A00DF8842 /* IMMailAccountInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMailAccountInfoModel.h; sourceTree = "<group>"; };
+		84E97B9D2248D32A00DF8842 /* IMChatMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMChatMessageHelper.m; sourceTree = "<group>"; };
+		84E97B9E2248D32A00DF8842 /* IMPhotoPreviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPhotoPreviewModel.h; sourceTree = "<group>"; };
+		84E97B9F2248D32A00DF8842 /* IMMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageModel.h; sourceTree = "<group>"; };
+		84E97BA02248D32A00DF8842 /* IMMailAccountInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMailAccountInfoModel.m; sourceTree = "<group>"; };
+		84E97BA12248D32A00DF8842 /* IMConversationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMConversationModel.h; sourceTree = "<group>"; };
+		84E97BA22248D32A00DF8842 /* IMMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessageModel.m; sourceTree = "<group>"; };
+		84E97BA32248D32A00DF8842 /* IMPhotoPreviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPhotoPreviewModel.m; sourceTree = "<group>"; };
+		84E97BA42248D32A00DF8842 /* IMChatMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMChatMessageHelper.h; sourceTree = "<group>"; };
+		84E97BA52248D32A00DF8842 /* IMConversationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMConversationHelper.m; sourceTree = "<group>"; };
+		84E97BA72248D32A00DF8842 /* IMDBConversationsSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBConversationsSQL.h; sourceTree = "<group>"; };
+		84E97BA82248D32A00DF8842 /* IMConversationStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMConversationStore.m; sourceTree = "<group>"; };
+		84E97BA92248D32A00DF8842 /* IMDBConversationStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBConversationStore.h; sourceTree = "<group>"; };
+		84E97BAA2248D32A00DF8842 /* IMDBConversationStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDBConversationStore.m; sourceTree = "<group>"; };
+		84E97BAC2248D32A00DF8842 /* IMUserHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUserHelper.m; sourceTree = "<group>"; };
+		84E97BAE2248D32A00DF8842 /* IMGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGroup.m; sourceTree = "<group>"; };
+		84E97BAF2248D32A00DF8842 /* IMGroup+CreateAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IMGroup+CreateAvatar.m"; sourceTree = "<group>"; };
+		84E97BB02248D32A00DF8842 /* IMGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGroup.h; sourceTree = "<group>"; };
+		84E97BB12248D32A00DF8842 /* IMGroup+CreateAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMGroup+CreateAvatar.h"; sourceTree = "<group>"; };
+		84E97BB22248D32A00DF8842 /* IMUserHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUserHelper.h; sourceTree = "<group>"; };
+		84E97BB42248D32A00DF8842 /* IMDBGroupSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBGroupSQL.h; sourceTree = "<group>"; };
+		84E97BB52248D32A00DF8842 /* IMDBGroupStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDBGroupStore.m; sourceTree = "<group>"; };
+		84E97BB62248D32A00DF8842 /* IMDBFriendStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDBFriendStore.m; sourceTree = "<group>"; };
+		84E97BB72248D32A00DF8842 /* IMDBFriendSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBFriendSQL.h; sourceTree = "<group>"; };
+		84E97BB82248D32A00DF8842 /* IMDBFriendStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBFriendStore.h; sourceTree = "<group>"; };
+		84E97BB92248D32A00DF8842 /* IMDBGroupStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBGroupStore.h; sourceTree = "<group>"; };
+		84E97BBB2248D32A00DF8842 /* IMAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAccountManager.h; sourceTree = "<group>"; };
+		84E97BBD2248D32A00DF8842 /* IMUserChatSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUserChatSetting.m; sourceTree = "<group>"; };
+		84E97BBE2248D32A00DF8842 /* IMUserDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUserDetail.m; sourceTree = "<group>"; };
+		84E97BBF2248D32A00DF8842 /* IMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUser.h; sourceTree = "<group>"; };
+		84E97BC02248D32A00DF8842 /* IMUserSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUserSetting.h; sourceTree = "<group>"; };
+		84E97BC12248D32A00DF8842 /* IMUserGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUserGroup.m; sourceTree = "<group>"; };
+		84E97BC22248D32A00DF8842 /* IMUserDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUserDetail.h; sourceTree = "<group>"; };
+		84E97BC32248D32A00DF8842 /* IMUserChatSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUserChatSetting.h; sourceTree = "<group>"; };
+		84E97BC42248D32A00DF8842 /* IMUserSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUserSetting.m; sourceTree = "<group>"; };
+		84E97BC52248D32A00DF8842 /* IMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUser.m; sourceTree = "<group>"; };
+		84E97BC62248D32A00DF8842 /* IMUserGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUserGroup.h; sourceTree = "<group>"; };
+		84E97BC72248D32A00DF8842 /* IMAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMAccountManager.m; sourceTree = "<group>"; };
+		84E97BC92248D32A00DF8842 /* IMDBUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBUserStore.h; sourceTree = "<group>"; };
+		84E97BCA2248D32A00DF8842 /* IMDBUserStoreSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBUserStoreSQL.h; sourceTree = "<group>"; };
+		84E97BCB2248D32A00DF8842 /* IMDBUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDBUserStore.m; sourceTree = "<group>"; };
+		84E97BE22248D74D00DF8842 /* IMEnumHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMEnumHeader.h; sourceTree = "<group>"; };
 		9C8187C59837640B6F016985 /* Pods-XMPPHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPHelper.release.xcconfig"; path = "Target Support Files/Pods-XMPPHelper/Pods-XMPPHelper.release.xcconfig"; sourceTree = "<group>"; };
 		ABE9B24C3372E4A2902FCC71 /* Pods-XMPPHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPHelper.debug.xcconfig"; path = "Target Support Files/Pods-XMPPHelper/Pods-XMPPHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		BEAE10E27EAF0F2251B288C1 /* Pods_XMPPHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4602E69725D38533A19770D /* libPods-XMPPHelperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMPPHelperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C50E44ED9CB1C6E664D53A54 /* Pods-XMPPHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPHelperTests.debug.xcconfig"; path = "Target Support Files/Pods-XMPPHelperTests/Pods-XMPPHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8A174BAE1DBBD48549B2108 /* Pods-XMPPHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPHelperUITests.release.xcconfig"; path = "Target Support Files/Pods-XMPPHelperUITests/Pods-XMPPHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DDEBDB9857DF46D798171A2 /* libPods-XMPPHelper.a in Frameworks */,
+				4983C0F757C2B24C74A57893 /* Pods_XMPPHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +145,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B2309FCB5BE97CEDAEC515 /* libPods-XMPPHelperTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +152,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D350A9339BAF143D96E6123C /* libPods-XMPPHelperUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +183,7 @@
 		84E97B5B2248D17200DF8842 /* XMPPHelper */ = {
 			isa = PBXGroup;
 			children = (
+				84E97B8E2248D2FB00DF8842 /* XMPPHelper */,
 				84E97B5C2248D17200DF8842 /* AppDelegate.h */,
 				84E97B5D2248D17200DF8842 /* AppDelegate.m */,
 				84E97B5F2248D17200DF8842 /* ViewController.h */,
@@ -149,26 +215,167 @@
 			path = XMPPHelperUITests;
 			sourceTree = "<group>";
 		};
+		84E97B8E2248D2FB00DF8842 /* XMPPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				84E97B922248D32A00DF8842 /* DBManager */,
+				84E97B8F2248D32200DF8842 /* IMXMPPHelper.h */,
+				84E97B902248D32200DF8842 /* IMXMPPHelper.m */,
+				84E97BE22248D74D00DF8842 /* IMEnumHeader.h */,
+			);
+			path = XMPPHelper;
+			sourceTree = "<group>";
+		};
+		84E97B922248D32A00DF8842 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				84E97B932248D32A00DF8842 /* IMDBManager */,
+				84E97B982248D32A00DF8842 /* IMConversationManager */,
+				84E97BAB2248D32A00DF8842 /* IMUserManager */,
+				84E97BBA2248D32A00DF8842 /* IMAccountManager */,
+			);
+			name = DBManager;
+			path = ../../../MYIMDemo/MYIMDemo/DBManager;
+			sourceTree = "<group>";
+		};
+		84E97B932248D32A00DF8842 /* IMDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				84E97B942248D32A00DF8842 /* IMDBBaseStore.h */,
+				84E97B952248D32A00DF8842 /* IMDBManager.h */,
+				84E97B962248D32A00DF8842 /* IMDBBaseStore.m */,
+				84E97B972248D32A00DF8842 /* IMDBManager.m */,
+			);
+			path = IMDBManager;
+			sourceTree = "<group>";
+		};
+		84E97B982248D32A00DF8842 /* IMConversationManager */ = {
+			isa = PBXGroup;
+			children = (
+				84E97B992248D32A00DF8842 /* IMConversationHelper.h */,
+				84E97B9A2248D32A00DF8842 /* Models */,
+				84E97BA52248D32A00DF8842 /* IMConversationHelper.m */,
+				84E97BA62248D32A00DF8842 /* Store */,
+			);
+			path = IMConversationManager;
+			sourceTree = "<group>";
+		};
+		84E97B9A2248D32A00DF8842 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84E97B9B2248D32A00DF8842 /* IMConversationModel.m */,
+				84E97B9C2248D32A00DF8842 /* IMMailAccountInfoModel.h */,
+				84E97B9D2248D32A00DF8842 /* IMChatMessageHelper.m */,
+				84E97B9E2248D32A00DF8842 /* IMPhotoPreviewModel.h */,
+				84E97B9F2248D32A00DF8842 /* IMMessageModel.h */,
+				84E97BA02248D32A00DF8842 /* IMMailAccountInfoModel.m */,
+				84E97BA12248D32A00DF8842 /* IMConversationModel.h */,
+				84E97BA22248D32A00DF8842 /* IMMessageModel.m */,
+				84E97BA32248D32A00DF8842 /* IMPhotoPreviewModel.m */,
+				84E97BA42248D32A00DF8842 /* IMChatMessageHelper.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84E97BA62248D32A00DF8842 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				84E97BA72248D32A00DF8842 /* IMDBConversationsSQL.h */,
+				84E97BA82248D32A00DF8842 /* IMConversationStore.m */,
+				84E97BA92248D32A00DF8842 /* IMDBConversationStore.h */,
+				84E97BAA2248D32A00DF8842 /* IMDBConversationStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		84E97BAB2248D32A00DF8842 /* IMUserManager */ = {
+			isa = PBXGroup;
+			children = (
+				84E97BAC2248D32A00DF8842 /* IMUserHelper.m */,
+				84E97BAD2248D32A00DF8842 /* Models */,
+				84E97BB22248D32A00DF8842 /* IMUserHelper.h */,
+				84E97BB32248D32A00DF8842 /* Store */,
+			);
+			path = IMUserManager;
+			sourceTree = "<group>";
+		};
+		84E97BAD2248D32A00DF8842 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84E97BAE2248D32A00DF8842 /* IMGroup.m */,
+				84E97BAF2248D32A00DF8842 /* IMGroup+CreateAvatar.m */,
+				84E97BB02248D32A00DF8842 /* IMGroup.h */,
+				84E97BB12248D32A00DF8842 /* IMGroup+CreateAvatar.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84E97BB32248D32A00DF8842 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				84E97BB42248D32A00DF8842 /* IMDBGroupSQL.h */,
+				84E97BB52248D32A00DF8842 /* IMDBGroupStore.m */,
+				84E97BB62248D32A00DF8842 /* IMDBFriendStore.m */,
+				84E97BB72248D32A00DF8842 /* IMDBFriendSQL.h */,
+				84E97BB82248D32A00DF8842 /* IMDBFriendStore.h */,
+				84E97BB92248D32A00DF8842 /* IMDBGroupStore.h */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		84E97BBA2248D32A00DF8842 /* IMAccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				84E97BBB2248D32A00DF8842 /* IMAccountManager.h */,
+				84E97BBC2248D32A00DF8842 /* Models */,
+				84E97BC72248D32A00DF8842 /* IMAccountManager.m */,
+				84E97BC82248D32A00DF8842 /* Store */,
+			);
+			path = IMAccountManager;
+			sourceTree = "<group>";
+		};
+		84E97BBC2248D32A00DF8842 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84E97BBD2248D32A00DF8842 /* IMUserChatSetting.m */,
+				84E97BBE2248D32A00DF8842 /* IMUserDetail.m */,
+				84E97BBF2248D32A00DF8842 /* IMUser.h */,
+				84E97BC02248D32A00DF8842 /* IMUserSetting.h */,
+				84E97BC12248D32A00DF8842 /* IMUserGroup.m */,
+				84E97BC22248D32A00DF8842 /* IMUserDetail.h */,
+				84E97BC32248D32A00DF8842 /* IMUserChatSetting.h */,
+				84E97BC42248D32A00DF8842 /* IMUserSetting.m */,
+				84E97BC52248D32A00DF8842 /* IMUser.m */,
+				84E97BC62248D32A00DF8842 /* IMUserGroup.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84E97BC82248D32A00DF8842 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				84E97BC92248D32A00DF8842 /* IMDBUserStore.h */,
+				84E97BCA2248D32A00DF8842 /* IMDBUserStoreSQL.h */,
+				84E97BCB2248D32A00DF8842 /* IMDBUserStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		BD1C13DBD53C02CA9D10F96F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				ABE9B24C3372E4A2902FCC71 /* Pods-XMPPHelper.debug.xcconfig */,
 				9C8187C59837640B6F016985 /* Pods-XMPPHelper.release.xcconfig */,
-				C50E44ED9CB1C6E664D53A54 /* Pods-XMPPHelperTests.debug.xcconfig */,
-				4B8ABA95D54ED907CBFEF610 /* Pods-XMPPHelperTests.release.xcconfig */,
-				9953C94A71BA2C3A5A1D4558 /* Pods-XMPPHelperUITests.debug.xcconfig */,
-				F8A174BAE1DBBD48549B2108 /* Pods-XMPPHelperUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		C06EF4AA738A572321180796 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2BB7CCBAF5CB56034E96671F /* libPods-XMPPHelper.a */,
 				13BAEE6F35C6F63D55814142 /* libPods-XMPPHelperTests.a */,
 				C4602E69725D38533A19770D /* libPods-XMPPHelperUITests.a */,
+				BEAE10E27EAF0F2251B288C1 /* Pods_XMPPHelper.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +391,7 @@
 				84E97B552248D17200DF8842 /* Sources */,
 				84E97B562248D17200DF8842 /* Frameworks */,
 				84E97B572248D17200DF8842 /* Resources */,
+				8322C61C5F605E91202B050B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,7 +406,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E97B882248D17400DF8842 /* Build configuration list for PBXNativeTarget "XMPPHelperTests" */;
 			buildPhases = (
-				E1DFBFD05BF38AEE975729F0 /* [CP] Check Pods Manifest.lock */,
 				84E97B6D2248D17400DF8842 /* Sources */,
 				84E97B6E2248D17400DF8842 /* Frameworks */,
 				84E97B6F2248D17400DF8842 /* Resources */,
@@ -217,7 +424,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E97B8B2248D17400DF8842 /* Build configuration list for PBXNativeTarget "XMPPHelperUITests" */;
 			buildPhases = (
-				9C27986A09CE25066FFC3C8D /* [CP] Check Pods Manifest.lock */,
 				84E97B782248D17400DF8842 /* Sources */,
 				84E97B792248D17400DF8842 /* Frameworks */,
 				84E97B7A2248D17400DF8842 /* Resources */,
@@ -302,7 +508,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9C27986A09CE25066FFC3C8D /* [CP] Check Pods Manifest.lock */ = {
+		8322C61C5F605E91202B050B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,18 +516,34 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-XMPPHelper/Pods-XMPPHelper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IMShortcut/IMShortcut.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/PrivateKit/PrivateKit.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/libidn/libidn.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XMPPHelperUITests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IMShortcut.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrivateKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libidn.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMPPHelper/Pods-XMPPHelper-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B36A902F75CBF546ED9C0768 /* [CP] Check Pods Manifest.lock */ = {
@@ -346,28 +568,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E1DFBFD05BF38AEE975729F0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XMPPHelperTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -375,9 +575,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E97B912248D32300DF8842 /* IMXMPPHelper.m in Sources */,
+				84E97BD02248D32A00DF8842 /* IMMailAccountInfoModel.m in Sources */,
+				84E97BCD2248D32A00DF8842 /* IMDBManager.m in Sources */,
+				84E97BD92248D32A00DF8842 /* IMDBGroupStore.m in Sources */,
+				84E97BD12248D32A00DF8842 /* IMMessageModel.m in Sources */,
+				84E97BCC2248D32A00DF8842 /* IMDBBaseStore.m in Sources */,
+				84E97BCF2248D32A00DF8842 /* IMChatMessageHelper.m in Sources */,
+				84E97BD52248D32A00DF8842 /* IMDBConversationStore.m in Sources */,
+				84E97BE02248D32A00DF8842 /* IMAccountManager.m in Sources */,
+				84E97BD72248D32A00DF8842 /* IMGroup.m in Sources */,
+				84E97BE12248D32A00DF8842 /* IMDBUserStore.m in Sources */,
+				84E97BCE2248D32A00DF8842 /* IMConversationModel.m in Sources */,
 				84E97B612248D17200DF8842 /* ViewController.m in Sources */,
+				84E97BD82248D32A00DF8842 /* IMGroup+CreateAvatar.m in Sources */,
 				84E97B6C2248D17400DF8842 /* main.m in Sources */,
+				84E97BD22248D32A00DF8842 /* IMPhotoPreviewModel.m in Sources */,
+				84E97BDE2248D32A00DF8842 /* IMUserSetting.m in Sources */,
+				84E97BDD2248D32A00DF8842 /* IMUserGroup.m in Sources */,
+				84E97BDF2248D32A00DF8842 /* IMUser.m in Sources */,
+				84E97BD42248D32A00DF8842 /* IMConversationStore.m in Sources */,
+				84E97BDA2248D32A00DF8842 /* IMDBFriendStore.m in Sources */,
+				84E97BD32248D32A00DF8842 /* IMConversationHelper.m in Sources */,
+				84E97BDB2248D32A00DF8842 /* IMUserChatSetting.m in Sources */,
+				84E97BDC2248D32A00DF8842 /* IMUserDetail.m in Sources */,
 				84E97B5E2248D17200DF8842 /* AppDelegate.m in Sources */,
+				84E97BD62248D32A00DF8842 /* IMUserHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +805,6 @@
 		};
 		84E97B892248D17400DF8842 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C50E44ED9CB1C6E664D53A54 /* Pods-XMPPHelperTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -602,7 +824,6 @@
 		};
 		84E97B8A2248D17400DF8842 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B8ABA95D54ED907CBFEF610 /* Pods-XMPPHelperTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -622,7 +843,6 @@
 		};
 		84E97B8C2248D17400DF8842 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9953C94A71BA2C3A5A1D4558 /* Pods-XMPPHelperUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQM469J9QF;
@@ -641,7 +861,6 @@
 		};
 		84E97B8D2248D17400DF8842 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8A174BAE1DBBD48549B2108 /* Pods-XMPPHelperUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQM469J9QF;

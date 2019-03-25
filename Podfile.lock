@@ -1,3 +1,56 @@
-PODFILE CHECKSUM: 78635a5eb3904718e786fb7a7468929c9eacd834
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaLumberjack (3.5.2):
+    - CocoaLumberjack/Core (= 3.5.2)
+  - CocoaLumberjack/Core (3.5.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IMShortcut (3)
+  - KissXML (5.2.3)
+  - libidn (1.35)
+  - MJExtension (3.0.15.1)
+  - PrivateKit (6)
+  - XMPPFramework (4.0.0):
+    - XMPPFramework/default (= 4.0.0)
+  - XMPPFramework/default (4.0.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack
+    - KissXML (~> 5.2)
+    - libidn (~> 1.35)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - FMDB
+  - IMShortcut
+  - MJExtension
+  - PrivateKit
+  - XMPPFramework
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - FMDB
+    - KissXML
+    - libidn
+    - MJExtension
+    - XMPPFramework
+  https://github.com/pterXX/PrivatePod.git:
+    - IMShortcut
+    - PrivateKit
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaLumberjack: 118bf4a820efc641f79fa487b75ed928dccfae23
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IMShortcut: ec11027155003cf3b36cf14b216e994269d39c4f
+  KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
+  libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  PrivateKit: 90633a46c7356177568ae3b525774fdf3ac4c82b
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
+
+PODFILE CHECKSUM: d150d2aaf9de80a4e4bd3bdc4f2e5d3f7308ae4c
 
 COCOAPODS: 1.6.1
